@@ -8,7 +8,7 @@ Find domains and subdomains potentially related to a given domain.
 If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PATH`):
 
 ```
-go get -u github.com/tomnomnom/assetfinder
+go install github.com/tomnomnom/assetfinder@latest
 ```
 
 Otherwise [download a release for your platform](https://github.com/tomnomnom/assetfinder/releases).
@@ -18,6 +18,8 @@ To make it easier to execute you can put the binary in your `$PATH`.
 
 ```
 assetfinder [--subs-only] <domain>
+
+eg. assetfinder --subs-only hackerone.com
 ```
 
 ## Sources
